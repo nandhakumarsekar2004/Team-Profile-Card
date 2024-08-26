@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: #54677c;
+}
+header {
+    background-color: #f1ee03; /* optional */
+    padding: 5px; /* reduced padding */
+    text-align: center;
+    header {
+    border-top: 1px solid #ddd; /* top border */
+    border-right: 2px solid #ddd; /* right border */
+    border-bottom: 3px solid #ddd; /* bottom border */
+    border-left: 4px solid #ddd; /* left border */
+}
+     
+
+}
+
+header h1 {
+    margin: 0px;
+    font-size: 50px; /* reduced font size */
+    font-weight: bold;
+    color: #333;
+}
+
+body {
+    min-height: 100vh;
+    width: 100%;
+    background-color: #e4e4e4;
+    display: flex;
+    /* Responsive behaviour */
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 16px;
+    
+}
+
+.card {
+    position: relative;
+    width: 300px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.15);
+    padding: 16px;
+    margin:  56px 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 15px 35px -15px rgba(0, 0, 0, 0.5),
+    0 5px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.card-image img {
+    width: 100%;
+    transform: scale(1.2);
+}
+
+p {
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+.name {
+    margin-top: 80px;
+    font-size: 1.4em;
+    color: #333;
+    font-weight: bold;
+    letter-spacing: 0.8px;
+    margin-bottom: 8px;
+}
+
+.socials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.socials i {
+    font-size: 36px;
+    margin: 0 10px;
+    color: #fff;
+}
+
+.instagram {
+    background-color: #e1306c;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.linkedin {
+    background-color: #0072b1;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.facebook {
+    background-color: #3b5998;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.github {
+    background-color: #24292e;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.contact-btn,.email-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+.contact-btn:hover,.email-btn:hover {
+    opacity: 0.8;
+}
+    
+    
+    
